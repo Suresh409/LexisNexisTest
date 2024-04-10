@@ -1,0 +1,10 @@
+added both positive and negative sceanrio using scenario outline
+used Chrome driver 122 as my device has latest chrome and Webdriver manager having 114 only
+The reports are under target/site/serenity/index.html
+The scripts can be run using  mvn serenity:aggregate verify
+We can generate different type of reports like cucumber masterthought which shows table format abd detailed report as well.
+
+not added .gitignore
+
+
+

@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-10T17:53:38.036Z",
+        "line": 14,
+        "name": "Check User able to search jobs on career page",
+        "description": "",
+        "id": "search-jobs;check-user-able-to-search-jobs-on-career-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8987603000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on LexisNexis Home page",
+            "match": {
+              "location": "com.lexisnexis.stepdefinition.CareersStepDefinition.iAmOnLexisNexisHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3185418000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Navigate to Careers",
+            "match": {
+              "location": "com.lexisnexis.stepdefinition.CareersStepDefinition.iNavigateToCareers()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1302252000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on SearchAll Jobs",
+            "match": {
+              "location": "com.lexisnexis.stepdefinition.CareersStepDefinition.iClickOnSearchAllJobs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 885140000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Search Job as \"automation tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"automation tester\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.lexisnexis.stepdefinition.CareersStepDefinition.iSearchJobAs(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42550000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Can see the results",
+            "match": {
+              "location": "com.lexisnexis.stepdefinition.CareersStepDefinition.iCanSeeTheResults()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchJobs"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-10T17:53:54.420Z",
+        "line": 15,
+        "name": "Check User able to search jobs on career page",
+        "description": "",
+        "id": "search-jobs;check-user-able-to-search-jobs-on-career-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4859941000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on LexisNexis Home page",
+            "match": {
+              "location": "com.lexisnexis.stepdefinition.CareersStepDefinition.iAmOnLexisNexisHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2947475000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Navigate to Careers",
+            "match": {
+              "location": "com.lexisnexis.stepdefinition.CareersStepDefinition.iNavigateToCareers()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1088559000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Click on SearchAll Jobs",
+            "match": {
+              "location": "com.lexisnexis.stepdefinition.CareersStepDefinition.iClickOnSearchAllJobs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 744985000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Search Job as \"Dummy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dummy\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.lexisnexis.stepdefinition.CareersStepDefinition.iSearchJobAs(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotVisibleException: Timed out after 10 seconds. Element not available\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SURESHs-MBP\u0027, ip: \u00272a02:c7c:ac36:f400:304d:7e12:5faf:bd%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002715.0.2\u0027\nDriver info: driver.version: unknown\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:161)\n\tat net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:116)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy48.getText(Unknown Source)\n\tat lexisnexis@1.0-SNAPSHOT/com.lexisnexis.pages.CareersPage.checkResultsText(CareersPage.java:44)\n\tat lexisnexis@1.0-SNAPSHOT/com.lexisnexis.steps.SearchJobSteps.verifySearchResults(SearchJobSteps.java:25)\n\tat lexisnexis@1.0-SNAPSHOT/com.lexisnexis.steps.SearchJobSteps$ByteBuddy$ymm63afy.verifySearchResults$accessor$8hMBieBD(Unknown Source)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)\n\tat net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)\n\tat net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:407)\n\tat net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:192)\n\tat net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:85)\n\tat net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)\n\tat lexisnexis@1.0-SNAPSHOT/com.lexisnexis.steps.SearchJobSteps$ByteBuddy$ymm63afy.verifySearchResults(Unknown Source)\n\tat lexisnexis@1.0-SNAPSHOT/com.lexisnexis.stepdefinition.CareersStepDefinition.iCanSeeTheResults(CareersStepDefinition.java:42)\n\tat ✽.I Can see the results(file:///Users/mounisuresh/Desktop/LexisNexisTest/src/test/resources/features/SearchJobs.feature:10)\n",
+              "duration": 10227279000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I Can see the results",
+            "match": {
+              "location": "com.lexisnexis.stepdefinition.CareersStepDefinition.iCanSeeTheResults()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchJobs"
+          }
+        ]
+      }
+    ],
+    "name": "Search Jobs",
+    "description": "",
+    "id": "search-jobs",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SearchJobs.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,5 @@
+com/lexisnexis/pages/CareersPage.class
+com/lexisnexis/steps/HomePageSteps.class
+com/lexisnexis/steps/SearchJobSteps.class
+com/lexisnexis/stepdefinition/CareersStepDefinition.class
+com/lexisnexis/pages/HomePage.class
