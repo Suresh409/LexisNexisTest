@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Search Jobs" skipped="0" tests="2" time="37.3" timestamp="2024-04-10 06:53:38"><testcase name="Check User able to search jobs on career page"><error message="Timed out after 10 seconds. Element not available&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:304d:7e12:5faf:bd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:304d:7e12:5faf:bd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotVisibleException">Timed out after 10 seconds. Element not available
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Search Jobs" skipped="0" tests="2" time="46.85" timestamp="2024-04-11 08:15:51"><testcase name="Check User able to search jobs on career page"><error message="Timed out after 10 seconds. Element not available&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:c90d:171:33c0:458f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:c90d:171:33c0:458f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.ElementNotVisibleException">Timed out after 10 seconds. Element not available
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:304d:7e12:5faf:bd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:c90d:171:33c0:458f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
 Driver info: driver.version: unknown
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:304d:7e12:5faf:bd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:c90d:171:33c0:458f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
 Driver info: driver.version: unknown</error><system-err>Timed out after 10 seconds. Element not available
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:304d:7e12:5faf:bd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:c90d:171:33c0:458f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
 Driver info: driver.version: unknown
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:304d:7e12:5faf:bd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:c90d:171:33c0:458f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
 Driver info: driver.version: unknown
 lexisnexis@1.0-SNAPSHOT/com.lexisnexis.pages.CareersPage.checkResultsText(CareersPage.java:44)
 lexisnexis@1.0-SNAPSHOT/com.lexisnexis.steps.SearchJobSteps.verifySearchResults(SearchJobSteps.java:25)

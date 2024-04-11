@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: runner.Runner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 39.943 s <<< FAILURE! - in runner.Runner
-Search Jobs.Check User able to search jobs on career page #2  Time elapsed: 20.796 s  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 49.821 s <<< FAILURE! - in runner.Runner
+Search Jobs.Check User able to search jobs on career page #2  Time elapsed: 21.669 s  <<< ERROR!
 org.openqa.selenium.ElementNotVisibleException: 
 Timed out after 10 seconds. Element not available
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:304d:7e12:5faf:bd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
+System info: host: 'SURESHs-MBP', ip: '2a02:c7c:ac36:f400:c90d:171:33c0:458f%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
 Driver info: driver.version: unknown
 
